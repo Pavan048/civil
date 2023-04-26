@@ -1,0 +1,377 @@
+*{
+  
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+/* header */
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-shadow: -1px 0px 9px rgba(0,0,0,0.55);
+}
+.mitslogo{
+    flex: 25%;
+    height: 200px;
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.header-text{
+    flex: 50%;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 150px;
+}
+.civillogo{
+    flex: 25%;
+    height: 200px;
+    width: 100px;
+    margin-left: 70px;
+}
+
+
+
+/* nav */
+.navbar{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.521);
+    margin: 20px 0px;
+    -webkit-box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.75);
+
+    
+
+}
+.navbar a{
+    flex-direction: row;
+    text-align: center;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-transform: hidden;
+    color: white;
+    
+}
+.navbar a:hover{
+    /* background-color: rgba(55, 116, 60, 0.973); */
+    background-color: rgb(28, 165, 199);
+    color: black;
+}
+/* section */
+.banner{
+    background-color: #fff;
+    text-align: center;
+    margin: 20px;
+    /* padding: 100px; */
+    width: 97%;
+    margin-left: 20px;
+    -webkit-box-shadow: -13px 8px 20px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -13px 8px 20px -4px rgba(0,0,0,0.75);
+box-shadow: -13px 8px 20px -4px rgba(0,0,0,0.75);
+
+}
+.mits-image{
+    width: 100%;
+    height: 100%;
+}
+.about-mits{
+    background-color: beige;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    padding: 40px;
+    line-height: 1.6;
+    margin: 20px;
+    -webkit-box-shadow: -13px 8px 20px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -13px 8px 20px -4px rgba(0,0,0,0.75);
+box-shadow: -13px 8px 20px -4px rgba(0,0,0,0.75);
+}
+/* .civil-banner{
+    background-color: #fff;
+    text-align: center;
+   
+    margin: 20px;
+    /* padding: 100px; */
+    /* width: 97%;
+    height: 20vh;
+    margin-left: 20px;
+    -webkit-box-shadow: -13px 8px 20px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -13px 8px 20px -4px rgba(0,0,0,0.75);
+box-shadow: -13px 8px 20px -4px rgba(0,0,0,0.75); */
+
+
+/* }
+.civil-image{
+    width: 100%;
+    height: 50%;
+} */ 
+.about-civil{
+    background-color: rgba(192, 147, 206, 0.911);
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    padding: 40px;
+    line-height: 1.6;
+    margin: 20px;
+    -webkit-box-shadow: -13px 8px 20px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -13px 8px 20px -4px rgba(0,0,0,0.75);
+box-shadow: -13px 8px 20px -4px rgba(0,0,0,0.75);
+
+}
+/* end of homepage */
+/* members page */
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    margin: 25px 0px 25px 80px;
+}
+
+.member-card{
+    width: 250px;
+    height: 300px;
+    background-color: aqua;
+    color: black;
+    /* padding: 10px; */
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 3px;
+    transition: all 0.3s ease-in-out;
+    -webkit-box-shadow: 13px 21px 21px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 13px 21px 21px -1px rgba(0,0,0,0.75);
+    box-shadow: 13px 21px 21px -1px rgba(0,0,0,0.75);
+    margin: 25px;
+}
+.member-img{
+    width: 100%;
+    height: 50%;
+    
+}
+.member-card:hover{
+    transform: scale(1.1,1.1);
+ }
+
+/* end of members pages */
+/* events */
+.events-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin: 25px 0px 25px 80px;
+    
+}
+.event{
+    width: 500px;
+    height: 350px;
+    background-color: rgba(134, 57, 165, 0.781);
+    color: black;
+    /* padding: 10px; */
+    text-align: center;
+    margin: 25px;
+    -webkit-box-shadow: -13px 8px 20px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -13px 8px 20px -4px rgba(0,0,0,0.75);
+box-shadow: -13px 8px 20px -4px rgba(0,0,0,0.75);
+transition: all 0.3s ease-in-out;
+   
+}
+.event:hover{
+    transform: scale(1.1,1);
+}
+.event-img{
+    width: 100%;
+    height: 50%;
+}
+/* end of events */
+/* contact */
+.contact-card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    margin: 50px;
+}
+.contact-card{
+    width: 250px;
+    height: 300px;
+    border-radius: 4px solid rgb(0, 0, 0);
+    text-align: center;
+    background-color: gray;
+    
+}
+.contact-img{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 10px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #7b04aa;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 19px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background: rgb(28, 165, 199);
+}
+.done-container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 30px;
+    margin-top: 20%;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    border-radius: 10px;
+}
+.return-btn{
+    background-color: #7b04aa;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 19px;
+    cursor: pointer;
+}
+.return-btn:hover{
+    background: rgb(28, 165, 199);
+
+}
+.done-container{
+    transition: all 0.5s ease-in-out;
+}
+/* .done-container:hover{
+    transform: scale(0.1,0.1);
+} */
+.form-container {
+  margin: 25px;
+  border-radius: 13px;
+  background-color: #bbb55e;
+  padding: 20px;
+}
+
+/* footer */
+.footer{
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: -13px 8px 20px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -13px 8px 20px -4px rgba(0,0,0,0.75);
+box-shadow: -13px 8px 20px -4px rgba(0,0,0,0.75);
+
+}
+.footer-card{
+    width: 300px;
+    height: 100%;
+    margin: 30px;
+}
+.foo-header{
+    text-decoration: underline;
+    text-transform: uppercase;
+    
+}
+.social-icons{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    margin: 10px;
+}
+.fa-brands{
+    font-size: 25px;
+    transition: all 0.3s ease-in-out;
+}
+.fa-brands:hover{
+    transform: scale(1.5,1.5);
+}
+/* .fa-facebook,.fa-linkedin,.fa-twitter{
+    color: blue;
+} */
+
+
+
+@media screen and (max-width:800px) {
+    header
+    .mitslogo{
+        height: 50px;
+        width: 50px;
+        margin-top: 15px;
+        position: relative;
+        right: -60px;
+       
+    }
+    .header-text{
+        font-size: 16px;
+       position: relative;
+       right:60px;
+        
+    }
+
+    .civillogo{
+        height: 50px;
+        width: 50px;
+        margin-top: 15px;
+        position: relative;
+        left: -100px;
+    }
+    /* navbar */
+   .row, .navbar {
+        flex-direction:column;
+
+    }
+
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 25px;
+        margin: 0;
+    }
+    .member-card{
+        margin-left: 20px;
+    }
+    .events-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin: 0;
+        
+    }
+    .event{
+        width: 250px;
+        height: 350px;
+        background-color: rgba(134, 57, 165, 0.781);
+        color: black;
+        padding: 10px;
+        text-align: center;
+        margin-left: 20px;
+    }
+    .contact-card-container{
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-left: 20px;
+    }
+
+    
+
+
+}
